@@ -7,6 +7,6 @@ int main(void)
 	scanf("%u", &a);
 
 	printf("%u", a);
-
+	
 	return 0;
 }
