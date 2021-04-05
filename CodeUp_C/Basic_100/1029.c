@@ -7,6 +7,6 @@ int main(void)
 	scanf("%lf", &a);
 
 	printf("%.11lf", a);
-
+	
 	return 0;
 }
