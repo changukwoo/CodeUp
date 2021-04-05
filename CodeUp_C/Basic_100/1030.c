@@ -7,6 +7,6 @@ int main(void)
 	scanf("%lld", &a);
 
 	printf("%lld", a);
-
+	
 	return 0;
 }
