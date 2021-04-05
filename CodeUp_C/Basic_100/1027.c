@@ -7,6 +7,6 @@ int main(void)
 	scanf("%d.%d.%d", &a, &b, &c);
 
 	printf("%02d-%02d-%04d\n", c, b, a);
-
+	
 	return 0;
 }
