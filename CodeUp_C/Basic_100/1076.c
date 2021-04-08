@@ -7,7 +7,7 @@ int main(void)
 	scanf("%c", &c);
 
 	save = c - (c - 'a');
-
+	
 	if (c == 'a')
 	{
 		printf("a\n");
