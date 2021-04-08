@@ -7,6 +7,6 @@ int main(void)
 	scanf("%lld %lld", &a, &b);
 
 	printf("%lld\n", a ^ b);
-
+	
 	return 0;
 }
