@@ -3,7 +3,7 @@
 int main(void)
 {
 	long long int a;
-
+	
 	while (1)
 	{
 		scanf("%lld", &a);
