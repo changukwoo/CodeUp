@@ -11,6 +11,6 @@ int main(void)
 		for (int j = 1; j <= b; j++)
 			printf("%d %d\n", i, j);
 	}
-
+	
 	return 0;
 }
