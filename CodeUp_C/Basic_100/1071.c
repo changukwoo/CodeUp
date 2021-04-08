@@ -10,7 +10,7 @@ int main(void)
 
 		if (a == 0)
 			return 0;
-
+		
 		printf("%lld\n", a);
 	}
 }
