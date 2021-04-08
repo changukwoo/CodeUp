@@ -13,6 +13,6 @@ int main(void)
 		else
 			printf("odd\n");
 	}
-
+	
 	return 0;
 }
