@@ -42,6 +42,6 @@ int main(void)
 		printf("A\n");
 		break;
 	}
-
+	
 	return 0;
 }
