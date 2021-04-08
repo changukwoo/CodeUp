@@ -15,6 +15,6 @@ int main(void)
 		printf("even\n");
 	else
 		printf("odd\n");
-
+	
 	return 0;
 }
