@@ -8,6 +8,6 @@ int main(void)
 
 	for (int i = a; i >= 0; i--)
 		printf("%d\n", a - i);
-
+	
 	return 0;
 }
