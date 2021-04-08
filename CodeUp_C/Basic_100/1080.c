@@ -9,7 +9,7 @@ int main(void)
 	for (int i = 1; i <= n; i++)
 	{
 		sum += i;
-
+		
 		if (sum >= n)
 		{
 			printf("%d\n", i);
