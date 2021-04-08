@@ -11,6 +11,6 @@ int main(void)
 		if (a % 2 == 0)
 			printf("%u\n", a);
 	}
-
+	
 	return 0;
 }
