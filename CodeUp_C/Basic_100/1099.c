@@ -4,7 +4,7 @@ int main(void)
 {
 	int arr[11][11];
 	int a = 2, b = 2;
-
+	
 	for (int i = 1; i <= 10; i++)
 	{
 		for (int j = 1; j <= 10; j++)
@@ -23,12 +23,12 @@ int main(void)
 
 		if (arr[a][b + 1] == 1 && arr[a + 1][b] == 1)
 			break;
-		else if (arr[a][b + 1] == 2) // ¿À¸¥ÂÊ¿¡ 2°¡ ÀÖÀ¸¸é
+		else if (arr[a][b + 1] == 2) // ì˜¤ë¥¸ìª½ì— 2ê°€ ìˆìœ¼ë©´
 		{
 			arr[a][b + 1] = 9;
 			break;
 		}
-		else if (arr[a][b + 1] == 0) // ¿À¸¥ÂÊ¿¡ 0ÀÌ ÀÖÀ¸¸é
+		else if (arr[a][b + 1] == 0) // ì˜¤ë¥¸ìª½ì— 0ì´ ìˆìœ¼ë©´
 		{
 			if (arr[a][b + 1] == 2)
 			{
@@ -36,9 +36,9 @@ int main(void)
 				break;
 			}
 
-			arr[a][++b] = 9; // ¿À¸¥ÂÊÀ¸·Î
+			arr[a][++b] = 9; // ì˜¤ë¥¸ìª½ìœ¼ë¡œ
 		}
-		else if (arr[a][b + 1] == 1) // ¿À¸¥ÂÊ¿¡ 1ÀÌ ÀÖÀ¸¸é
+		else if (arr[a][b + 1] == 1) // ì˜¤ë¥¸ìª½ì— 1ì´ ìˆìœ¼ë©´
 		{
 			if (arr[a + 1][b] == 2)
 			{
@@ -46,7 +46,7 @@ int main(void)
 				break;
 			}
 
-			arr[++a][b] = 9; // ¾Æ·¡·Î
+			arr[++a][b] = 9; // ì•„ë˜ë¡œ
 		}
 	}
 
