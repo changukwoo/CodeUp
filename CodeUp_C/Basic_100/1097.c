@@ -8,7 +8,7 @@ int main(void)
 	for (int i = 1; i <= 19; i++)
 		for (int j = 1; j <= 19; j++)
 			scanf("%d", &arr[i][j]);
-
+	
 	scanf("%d", &n);
 
 	for (int i = 1; i <= n; i++)
