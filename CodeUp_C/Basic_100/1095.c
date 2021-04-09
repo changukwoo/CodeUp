@@ -3,7 +3,7 @@
 int main(void)
 {
 	int n, arr1[10001], min = 23;
-
+	
 	scanf("%d", &n);
 
 	for (int i = 1; i <= n; i++)
