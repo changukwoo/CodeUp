@@ -10,6 +10,6 @@ int main(void)
 		day++;
 
 	printf("%lld\n", day);
-
+	
 	return 0;
 }
