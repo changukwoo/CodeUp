@@ -12,6 +12,6 @@ int main(void)
 		sum *= r;
 
 	printf("%lld\n", sum);
-
+	
 	return 0;
 }

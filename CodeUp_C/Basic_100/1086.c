@@ -10,6 +10,6 @@ int main(void)
 	sum = w * h * b / 8.0 / 1024.0 / 1024.0;
 
 	printf("%.2lf MB\n", (double)sum);
-
+	
 	return 0;
 }

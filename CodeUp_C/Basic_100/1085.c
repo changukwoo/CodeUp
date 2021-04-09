@@ -12,6 +12,6 @@ int main(void)
 	sum /= 1024.0;
 
 	printf("%.1lf MB\n", (double)sum);
-
+	
 	return 0;
 }
